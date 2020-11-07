@@ -1,2 +1,7 @@
 vendor/
 mirror.config.php
+target/
+xdebug/
+valgrind.txt
+rps
+last_metadata_timestamp

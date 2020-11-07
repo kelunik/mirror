@@ -1,11 +1,21 @@
 {
+    "autoload": {
+        "psr-4": {
+            "Composer\\Mirror\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "php": "^7.3",
-        "ext-curl": "*",
+        "php": ">=7.4",
+        "ext-json": "*",
         "ext-zlib": "*",
         "symfony/filesystem": "^5.1",
         "symfony/finder": "^5.1",
         "symfony/lock": "^5.1",
-        "symfony/http-client": "^5.1"
+        "amphp/amp": "^3-dev",
+        "amphp/http-client": "^5-dev",
+        "amphp/sync": "^2-dev",
+        "amphp/file": "^3-dev"
     }
 }
